@@ -23,7 +23,7 @@ meta:
     content: Documentation for the Kittn API
 ---
 
-# Introduction
+# API 연동
 
 Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
 
@@ -31,7 +31,7 @@ We have language bindings in Shell, Ruby, Python, and JavaScript! You can view c
 
 This example API documentation page was created with [Slate](https://github.com/slatedocs/slate). Feel free to edit it and use it as a base for your own API's documentation.
 
-# Authentication
+# 빠른시작
 
 > To authorize, use this code:
 
@@ -71,7 +71,7 @@ Kittn expects for the API key to be included in all API requests to the server i
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
-# Kittens
+# 결제요청
 
 ## Get All Kittens
 
@@ -243,3 +243,4 @@ Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to delete
 
+# 결제취소
