@@ -62,6 +62,12 @@ html, body {
   font-size: 13px;
   font-weight: bold;
 
+  .logo-container {
+    display : flex;
+    justify-content: center;
+    padding-top : 10px;
+  }
+
   // language selector for mobile devices
   .lang-selector {
     display: none;
@@ -74,7 +80,7 @@ html, body {
   // This is the logo at the top of the ToC
   .logo {
     display: block;
-    max-width: 100%;
+    max-width: 50%;
     margin-bottom: $logo-margin;
   }
 
